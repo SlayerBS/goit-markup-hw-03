@@ -149,23 +149,11 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-
 }
-/*.hero-link {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  /*text-decoration: none;*/*/
-}
+
 /*feature*/
 .feature-section {
-  padding: 94px 0 0;
+  padding-top: 94px;
 }
 .invisible {
   display: none;
