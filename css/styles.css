@@ -279,7 +279,6 @@ a {
 }
 .works {
   padding: 94px 0 94px 0;
-  text-align: center;
 }
 .button-block {
   display: flex;
@@ -320,25 +319,31 @@ a {
   list-style-type: none;
   margin: -30px 0 0 -30px;
   padding-left: 0;
-  /*justify-content: space-between;*/
 }
 .works-examples .item {
   margin-left: 30px;
   margin-top: 30px;
-  outline: 1px solid #eeeeee;
-  outline-offset: -1px;
+}
+.works-describe {
+  padding: 20px 24px 20px 24px;
+  margin-top: -4px;
+  border: 1px solid #eeeeee;
 }
 .works-title {
+  display: block;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0 0 4px 0;
 }
 .works-type {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
+  margin: 0;
 }
 /*footer*/
 .footer-logo {
